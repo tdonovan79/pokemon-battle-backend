@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  front_default: MyString
+  back_default: MyString
+  pokemon_type: one
+
+two:
+  name: MyString
+  front_default: MyString
+  back_default: MyString
+  pokemon_type: two

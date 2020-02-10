@@ -1,0 +1,74 @@
+[
+    {
+      "name": "Normal",
+      "move": "Mega Punch"
+    },
+    {
+      "name": "Fighting",
+      "move": "Mega Kick"
+    },
+    {
+      "name": "Flying",
+      "move": "Air Slash"
+    },
+    {
+      "name": "Poison",
+      "move": "Gunk Shot"
+    },
+    {
+      "name": "Ground",
+      "move": "Bulldoze"
+    },
+    {
+      "name": "Rock",
+      "move": "Head Smash"
+    },
+    {
+      "name": "Bug",
+      "move": "Bug Bite"
+    },
+    {
+      "name": "Ghost",
+      "move": "Shadow Ball"
+    },
+    {
+      "name": "Steel",
+      "move": "Meteor Mash"
+    },
+    {
+      "name": "Fire",
+      "move": "Incinerate"
+    },
+    {
+      "name": "Water",
+      "move": "Hydro Pump"
+    },
+    {
+      "name": "Grass",
+      "move": "Leaf Blade"
+    },
+    {
+      "name": "Electric",
+      "move": "Bolt Strike"
+    },
+    {
+      "name": "Psychic",
+      "move": "Psycho Cut"
+    },
+    {
+      "name": "Ice",
+      "move": "Icicle Spear"
+    },
+    {
+      "name": "Dragon",
+      "move": "Dragon Claw"
+    },
+    {
+      "name": "Dark",
+      "move": "Beat Up"
+    },
+    {
+      "name": "Fairy",
+      "move": "Moonblast"
+    }
+  ]

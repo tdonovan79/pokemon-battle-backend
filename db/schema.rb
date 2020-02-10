@@ -24,14 +24,11 @@ ActiveRecord::Schema.define(version: 2020_02_09_210651) do
   create_table "pokemons", force: :cascade do |t|
     t.string "name"
     t.integer "health", default: 100
-    t.string "type"
     t.string "front_default"
     t.string "back_default"
-    t.integer "pokemon_type_id", null: false
     t.integer "user_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.index ["pokemon_type_id"], name: "index_pokemons_on_pokemon_type_id"
     t.index ["user_id"], name: "index_pokemons_on_user_id"
   end
 
@@ -54,7 +51,6 @@ ActiveRecord::Schema.define(version: 2020_02_09_210651) do
 
   add_foreign_key "pokemon_types", "pokemons"
   add_foreign_key "pokemon_types", "types"
-  add_foreign_key "pokemons", "pokemon_types"
   add_foreign_key "pokemons", "users"
   add_foreign_key "types", "pokemon_types"
   add_foreign_key "users", "pokemons"

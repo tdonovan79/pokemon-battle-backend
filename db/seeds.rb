@@ -1,5 +1,6 @@
 # seed data tricky. how to associate attacks with types without hardcoding 151 entries? can't find reliable pokemon api
-
+PokemonType.destroy_all
+Pokemon.destroy_all
 Type.destroy_all
 User.destroy_all
 

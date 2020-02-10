@@ -1,5 +1,5 @@
 class Pokemon < ApplicationRecord
-  has_many :pokemon_types
+  has_many :pokemon_types, :dependent => :destroy
   belongs_to :user
   has_many :types, through: :pokemon_types
 

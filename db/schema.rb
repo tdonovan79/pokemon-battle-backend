@@ -28,9 +28,11 @@ ActiveRecord::Schema.define(version: 2020_02_09_210651) do
     t.string "front_default"
     t.string "back_default"
     t.integer "pokemon_type_id", null: false
+    t.integer "user_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["pokemon_type_id"], name: "index_pokemons_on_pokemon_type_id"
+    t.index ["user_id"], name: "index_pokemons_on_user_id"
   end
 
   create_table "types", force: :cascade do |t|
@@ -44,12 +46,16 @@ ActiveRecord::Schema.define(version: 2020_02_09_210651) do
 
   create_table "users", force: :cascade do |t|
     t.string "name"
+    t.integer "pokemon_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.index ["pokemon_id"], name: "index_users_on_pokemon_id"
   end
 
   add_foreign_key "pokemon_types", "pokemons"
   add_foreign_key "pokemon_types", "types"
   add_foreign_key "pokemons", "pokemon_types"
+  add_foreign_key "pokemons", "users"
   add_foreign_key "types", "pokemon_types"
+  add_foreign_key "users", "pokemons"
 end

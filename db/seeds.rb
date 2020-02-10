@@ -1,9 +1,14 @@
 # seed data tricky. how to associate attacks with types without hardcoding 151 entries? can't find reliable pokemon api
 
-# type_list = JSON.parse(File.read('db/type.json'))
-# type_list.each do |type|
-#   Type.create(type.to_h)
-# end
+Type.destroy_all
+User.destroy_all
+
+type_list = JSON.parse(File.read('db/type.json'))
+type_list.each do |type|
+  Type.create(type.to_h)
+end
+
+user = User.create(name: ("poop"))
 
 # pokemon_list = JSON.parse(File.read('db/pokemon.json'))
 # pokemon_list.each do |pokemon|

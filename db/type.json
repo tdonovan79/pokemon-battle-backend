@@ -1,74 +1,74 @@
 [
     {
       "name": "Normal",
-      "move": "Mega Punch"
+      "moves": "Mega Punch"
     },
     {
       "name": "Fighting",
-      "move": "Mega Kick"
+      "moves": "Mega Kick"
     },
     {
       "name": "Flying",
-      "move": "Air Slash"
+      "moves": "Air Slash"
     },
     {
       "name": "Poison",
-      "move": "Gunk Shot"
+      "moves": "Gunk Shot"
     },
     {
       "name": "Ground",
-      "move": "Bulldoze"
+      "moves": "Bulldoze"
     },
     {
       "name": "Rock",
-      "move": "Head Smash"
+      "moves": "Head Smash"
     },
     {
       "name": "Bug",
-      "move": "Bug Bite"
+      "moves": "Bug Bite"
     },
     {
       "name": "Ghost",
-      "move": "Shadow Ball"
+      "moves": "Shadow Ball"
     },
     {
       "name": "Steel",
-      "move": "Meteor Mash"
+      "moves": "Meteor Mash"
     },
     {
       "name": "Fire",
-      "move": "Incinerate"
+      "moves": "Incinerate"
     },
     {
       "name": "Water",
-      "move": "Hydro Pump"
+      "moves": "Hydro Pump"
     },
     {
       "name": "Grass",
-      "move": "Leaf Blade"
+      "moves": "Leaf Blade"
     },
     {
       "name": "Electric",
-      "move": "Bolt Strike"
+      "moves": "Bolt Strike"
     },
     {
       "name": "Psychic",
-      "move": "Psycho Cut"
+      "moves": "Psycho Cut"
     },
     {
       "name": "Ice",
-      "move": "Icicle Spear"
+      "moves": "Icicle Spear"
     },
     {
       "name": "Dragon",
-      "move": "Dragon Claw"
+      "moves": "Dragon Claw"
     },
     {
       "name": "Dark",
-      "move": "Beat Up"
+      "moves": "Beat Up"
     },
     {
       "name": "Fairy",
-      "move": "Moonblast"
+      "moves": "Moonblast"
     }
   ]

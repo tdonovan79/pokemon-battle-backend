@@ -1,11 +1,11 @@
 class PokemonTypesController < ApplicationController
-    # def index
-    #     pokemon = Pokemon.all 
-    #     render json: pokemon, include: [:type]
-    # end
+    def index
+        pokemon = PokemonType.all 
+        render json: pokemon
+    end
 
-    # def show
-    #     pokemon = Pokemon.find_by(id: params[:id])
-    #     render json: pokemon, include: [:type] # do an INCLUDE?
-    # end
+    def show
+        pokemon = PokemonType.find_by(id: params[:id])
+        render json: pokemon
+    end
 end

@@ -6,6 +6,8 @@ class CreatePokemons < ActiveRecord::Migration[6.0]
       t.string :front_default
       t.string :back_default
       t.references :user, null: true, foreign_key: true
+      # t.references :pokemon_type, null: true, foreign_key: true
+
 
 
       t.timestamps

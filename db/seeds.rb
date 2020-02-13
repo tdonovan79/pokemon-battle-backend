@@ -9,8 +9,6 @@ type_list.each do |type|
   Type.create(type.to_h)
 end
 
-user = User.create(name: ("poop"))
-
 # pokemon_list = JSON.parse(File.read('db/pokemon.json'))
 # pokemon_list.each do |pokemon|
 #   Pokemon.create(pokemon.to_h)

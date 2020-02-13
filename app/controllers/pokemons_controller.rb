@@ -10,9 +10,14 @@ class PokemonsController < ApplicationController
         render :json => JSON::parse(pokemon.to_json).merge(pokemon.types_and_moves).to_json
     end
 
-    def delete
+    def destroy
         pokemon = Pokemon.find(params[:id])
         pokemon.destroy
+        render json: pokemon
+    end
+
+    def show
+        pokemon = Pokemon.find(params[:id])
         render json: pokemon
     end
 end
